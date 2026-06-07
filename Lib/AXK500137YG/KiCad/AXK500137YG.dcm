@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AXK500137YG
+D Board to Board & Mezzanine Connectors CONN SOCKET BRD/BRD 100 POS 0.5mm
+K
+F https://industry.panasonic.com/ac/cdn/e/control/connector/base-base/catalog/con_eng_p5k.pdf
+$ENDCMP
+#
+#End Doc Library
