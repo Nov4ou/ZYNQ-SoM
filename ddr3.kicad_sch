@@ -12996,7 +12996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00c4ed18-aa17-408d-8add-fd8eb9802f70")
-		(property "Reference" "U101"
+		(property "Reference" "U201"
 			(at 293.37 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14266,7 +14266,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "U101")
+					(reference "U201")
 					(unit 7)
 				)
 			)

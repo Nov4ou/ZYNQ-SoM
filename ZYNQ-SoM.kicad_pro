@@ -216,6 +216,7 @@
         0.1425,
         0.1565,
         0.25,
+        0.4,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -775,6 +776,24 @@
           "label": "OC_FARNELL",
           "name": "OC_FARNELL",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -825,7 +844,7 @@
         "uuid": "49bbd0e9-23a3-4368-9660-7ba6c337a59d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "FB701,U701,#PWR701-704,C701-703,R701-703",
     "variants": []
   },
   "sheets": [
@@ -848,6 +867,14 @@
     [
       "2e74243d-8162-4301-9956-4e34ea8eecb8",
       "POWER"
+    ],
+    [
+      "a3e69578-9e7a-4d53-b05c-40c9a88aed4d",
+      "PL IO"
+    ],
+    [
+      "f361180f-e5f2-4d34-8a35-8dd8d4d1d8f3",
+      "PS MIO"
     ]
   ],
   "text_variables": {},
