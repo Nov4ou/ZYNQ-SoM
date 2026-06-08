@@ -7594,7 +7594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b68ffe5-b4d8-4efc-abbf-958dc4961dcb")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 312.42 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8866,7 +8866,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "U201")
+					(reference "U101")
 					(unit 4)
 				)
 			)
@@ -8884,7 +8884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0db681a4-7724-482f-8682-9d00352eba97")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 58.42 350.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10156,7 +10156,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "U201")
+					(reference "U101")
 					(unit 5)
 				)
 			)
@@ -10174,7 +10174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27510165-a215-4f45-9961-9dfa38b04184")
-		(property "Reference" "H4"
+		(property "Reference" "H104"
 			(at 264.16 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10232,7 +10232,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "H4")
+					(reference "H104")
 					(unit 1)
 				)
 			)
@@ -10250,7 +10250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f216be8-0f9e-4cb1-8c28-c82f3033e385")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 220.98 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11522,7 +11522,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "U201")
+					(reference "U101")
 					(unit 3)
 				)
 			)
@@ -11540,7 +11540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e1643e-dcb3-467a-af29-244569f4514d")
-		(property "Reference" "H2"
+		(property "Reference" "H102"
 			(at 264.16 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11598,7 +11598,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "H2")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -11616,7 +11616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a08868a-d5e3-48b4-a2c5-a489043e98e2")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 346.71 341.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12888,7 +12888,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "U201")
+					(reference "U101")
 					(unit 8)
 				)
 			)
@@ -12906,7 +12906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac731a3-927b-489f-a674-32e65cb5eff0")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 127 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14178,7 +14178,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "U201")
+					(reference "U101")
 					(unit 2)
 				)
 			)
@@ -14196,7 +14196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c06c0b3-9d1c-4847-b1c2-38788724a1cd")
-		(property "Reference" "H1"
+		(property "Reference" "H101"
 			(at 264.16 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14254,7 +14254,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "H1")
+					(reference "H101")
 					(unit 1)
 				)
 			)
@@ -14272,7 +14272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc7388e-66da-46c4-bfef-0635bf679e73")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 158.75 379.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15544,7 +15544,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "U201")
+					(reference "U101")
 					(unit 6)
 				)
 			)
@@ -15562,7 +15562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2260a45-cec3-4cd4-9aac-0b52186de7a6")
-		(property "Reference" "H3"
+		(property "Reference" "H103"
 			(at 264.16 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15620,7 +15620,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "H3")
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -15638,7 +15638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed30627-edbb-466e-8ed8-8f94f44344b6")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 360.68 419.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16910,7 +16910,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
-					(reference "U201")
+					(reference "U101")
 					(unit 9)
 				)
 			)
@@ -16958,6 +16958,52 @@
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2e74243d-8162-4301-9956-4e34ea8eecb8")
+		(property "Sheetname" "POWER"
+			(at 139.7 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 139.7 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZYNQ-SoM"
+				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d"
+					(page "5")
 				)
 			)
 		)

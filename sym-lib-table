@@ -9,4 +9,6 @@
 	(lib (name "W25Q256FVEI") (type "KiCad") (uri "${KIPRJMOD}/Lib/Symbols/W25Q256FVEI.kicad_sym") (options "") (descr ""))
 	(lib (name "Xilinx7") (type "KiCad") (uri "${KIPRJMOD}/Lib/Symbols/Xilinx7.kicad_sym") (options "") (descr ""))
 	(lib (name "AXK500137YG") (type "KiCad") (uri "${KIPRJMOD}/Lib/Symbols/AXK500137YG.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS62130ARGTR") (type "KiCad") (uri "${KIPRJMOD}/Lib/Symbols/TPS62130ARGTR.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS51206DSQR") (type "KiCad") (uri "${KIPRJMOD}/Lib/Symbols/TPS51206DSQR.kicad_sym") (options "") (descr ""))
 )

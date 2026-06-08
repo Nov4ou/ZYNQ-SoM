@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS62130ARGTR
+D 3-V to 17-V, 3-A step-down converter with DCS-control in 3x3 QFN package
+K
+F http://www.ti.com/lit/gpn/tps62130a
+$ENDCMP
+#
+#End Doc Library

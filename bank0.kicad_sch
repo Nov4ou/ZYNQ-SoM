@@ -7712,7 +7712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13dcc1c2-16fd-4de2-a5c4-c59e30824da0")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 103.378 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +8984,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/2da063c6-0163-4d2d-a242-eeb68f4fd748"
-					(reference "U201")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -9001,7 +9001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e86a4df-2139-4c10-b132-022afe804ee2")
-		(property "Reference" "U2"
+		(property "Reference" "U201"
 			(at 215.138 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9081,7 +9081,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/2da063c6-0163-4d2d-a242-eeb68f4fd748"
-					(reference "U2")
+					(reference "U201")
 					(unit 1)
 				)
 			)

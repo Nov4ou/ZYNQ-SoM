@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS51206DSQR
+D 2A Peak Sink/Source DDR Termination Regulator with VTTREF Buffered Reference for DDR2/3/3L/4
+K
+F http://www.ti.com/lit/ds/symlink/tps51206.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -12996,7 +12996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00c4ed18-aa17-408d-8add-fd8eb9802f70")
-		(property "Reference" "U201"
+		(property "Reference" "U101"
 			(at 293.37 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14266,7 +14266,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "U201")
+					(reference "U101")
 					(unit 7)
 				)
 			)
@@ -14283,7 +14283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05d9dd8a-9646-4b53-8503-f8f672677ab8")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0317"
 			(at 201.93 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14343,7 +14343,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0220")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -14360,7 +14360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11e4305c-3c74-4174-87b0-65316ef2a76d")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0316"
 			(at 199.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14420,7 +14420,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0211")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -14438,7 +14438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1248a2a6-af05-4833-88dd-f215b36b0e28")
-		(property "Reference" "R201"
+		(property "Reference" "R301"
 			(at 115.57 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14502,7 +14502,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "R201")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -14519,7 +14519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19a00152-7ab6-4c15-acff-a4f7ea366466")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0320"
 			(at 214.63 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14579,7 +14579,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0215")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -14596,7 +14596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19a1ba32-86c1-4ba0-b308-6e76af4a3b39")
-		(property "Reference" "R206"
+		(property "Reference" "R304"
 			(at 190.5 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14658,7 +14658,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "R206")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -14675,7 +14675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b3162dc-0485-4336-bac1-23cd077d4bee")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0305"
 			(at 130.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14735,7 +14735,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0212")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -14753,7 +14753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3438f969-a8a8-4065-b10d-7a03bffbc54f")
-		(property "Reference" "C214"
+		(property "Reference" "C313"
 			(at 231.14 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14817,7 +14817,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C214")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -14835,7 +14835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35567b93-7c23-4e54-8149-d9ade9abdac3")
-		(property "Reference" "R205"
+		(property "Reference" "R306"
 			(at 204.47 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14899,7 +14899,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "R205")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -14917,7 +14917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39178f1c-014d-42b4-a269-1077fd8bbfe3")
-		(property "Reference" "C205"
+		(property "Reference" "C307"
 			(at 191.262 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14981,7 +14981,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C205")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -14999,7 +14999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40c597dc-2d87-45b4-9686-801c72241b3a")
-		(property "Reference" "C209"
+		(property "Reference" "C309"
 			(at 206.502 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15063,7 +15063,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C209")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -15080,7 +15080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43e5aa29-4d52-4075-bc77-f6b170ac474c")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0325"
 			(at 229.87 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15140,7 +15140,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0217")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -15157,7 +15157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a0e3564-4588-4217-9260-a5037e9197d7")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0309"
 			(at 161.29 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15217,7 +15217,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0201")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -15235,7 +15235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b2b11a4-ceb4-4489-8939-1610b7843228")
-		(property "Reference" "C203"
+		(property "Reference" "C305"
 			(at 176.022 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15299,7 +15299,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C203")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -15317,7 +15317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d82db6e-e207-4eb4-9dcb-a3a3618e0a7a")
-		(property "Reference" "C204"
+		(property "Reference" "C306"
 			(at 183.642 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15381,7 +15381,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C204")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -15398,7 +15398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e648971-6b45-453c-9570-7c57e4ef6ad7")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0324"
 			(at 222.25 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15458,7 +15458,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0216")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -15475,7 +15475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56b267cf-c6fe-4c16-9258-e8650255449d")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0321"
 			(at 220.98 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -15535,7 +15535,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0223")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -15552,7 +15552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "577b3661-175a-4a51-9361-be3227293a40")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0318"
 			(at 201.93 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15612,7 +15612,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0221")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -15629,7 +15629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "596e9aaf-1f2b-465c-b0bf-39606d76cb56")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0308"
 			(at 143.51 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -15689,7 +15689,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0219")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -15706,7 +15706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62184cc8-c8f3-4264-8149-24101a89e36e")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0313"
 			(at 176.53 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15766,7 +15766,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0204")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -15783,7 +15783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64dd3732-262b-4fce-8c17-57146de06cfd")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0322"
 			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -15843,7 +15843,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0224")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -15860,7 +15860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a144cc1-5233-4c57-8837-32472cde6811")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0311"
 			(at 162.56 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15920,7 +15920,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0222")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -15937,7 +15937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f023382-e187-4e6c-87e5-ffa5ad80c03a")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0323"
 			(at 220.98 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -15997,7 +15997,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0225")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -16015,7 +16015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "803a1a45-1e38-4d79-82db-47d02ce43e8b")
-		(property "Reference" "C212"
+		(property "Reference" "C314"
 			(at 229.362 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16079,7 +16079,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C212")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -16096,7 +16096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80f3bedf-0fa7-474a-8a84-4a18e232a8cc")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0306"
 			(at 130.81 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16156,7 +16156,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0213")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -16174,7 +16174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877840af-a5ac-4260-aab4-8d66f8b05a18")
-		(property "Reference" "R204"
+		(property "Reference" "R305"
 			(at 204.47 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16238,7 +16238,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "R204")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -16256,7 +16256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89823b18-ffdc-44b5-89dd-2ed0c7c04c60")
-		(property "Reference" "C213"
+		(property "Reference" "C311"
 			(at 217.17 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16320,7 +16320,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C213")
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -16337,7 +16337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e3c9025-47cc-4dac-9b90-f33de165e162")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0304"
 			(at 121.92 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -16397,7 +16397,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0210")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -16414,7 +16414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f6eb2ad-0cc0-4522-9d60-a013b5fdc1a2")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0312"
 			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16474,7 +16474,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0203")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -16491,7 +16491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9329475c-5091-4937-86b7-cea967904abe")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0319"
 			(at 207.01 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16551,7 +16551,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0214")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -16569,7 +16569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95a9d492-5092-4f78-b3b1-a8b043f657f8")
-		(property "Reference" "C201"
+		(property "Reference" "C303"
 			(at 160.782 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16633,7 +16633,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C201")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -16650,7 +16650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac5b9905-65d2-4503-b08c-ed15c70816f0")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0307"
 			(at 143.51 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16710,7 +16710,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0218")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -16728,7 +16728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad637d5b-0786-4751-98d9-b44f6c42ebf6")
-		(property "Reference" "C210"
+		(property "Reference" "C310"
 			(at 214.122 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16792,7 +16792,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C210")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -16810,7 +16810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af400c54-3d49-405d-97fd-0e37dace5f46")
-		(property "Reference" "C202"
+		(property "Reference" "C304"
 			(at 168.402 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16874,7 +16874,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C202")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -16891,7 +16891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9618b48-8ad0-4127-98f7-cd8df0380189")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0301"
 			(at 113.03 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -16951,7 +16951,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0205")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -16969,7 +16969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c32d6e88-2c32-4f66-8f18-697ccb6a3786")
-		(property "Reference" "C206"
+		(property "Reference" "C308"
 			(at 198.882 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17033,7 +17033,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C206")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -17050,7 +17050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3ae4de8-94b4-4321-970d-d8f0c69965d8")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0302"
 			(at 113.03 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17110,7 +17110,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0206")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -17127,7 +17127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c746921b-9085-4185-955e-34355940f351")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0315"
 			(at 191.77 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17187,7 +17187,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0209")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -17205,7 +17205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3e5078-e803-4bc0-8e77-dee5f24258c5")
-		(property "Reference" "C211"
+		(property "Reference" "C312"
 			(at 221.742 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17269,7 +17269,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C211")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -17286,7 +17286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1e94ead-a267-418e-a2f6-2f63bd7b79b1")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0310"
 			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17346,7 +17346,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0202")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -17364,7 +17364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e11e87-3f9e-4c84-9d7d-f341892a514d")
-		(property "Reference" "C207"
+		(property "Reference" "C301"
 			(at 134.62 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17428,7 +17428,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C207")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -17445,7 +17445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddaab2a7-ac20-45cf-bef2-b0e8209195de")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0303"
 			(at 113.03 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17505,7 +17505,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0207")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -17523,7 +17523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac1a278-f37c-4e8c-af8e-cde34abbb4ed")
-		(property "Reference" "R202"
+		(property "Reference" "R302"
 			(at 146.05 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17587,7 +17587,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "R202")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -17604,7 +17604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f43b0285-b656-459a-953a-423906a7eca9")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0314"
 			(at 184.15 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17664,7 +17664,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "#PWR0208")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -17682,7 +17682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f82d35b6-40b2-4ff8-b6d5-362f233f3255")
-		(property "Reference" "U1"
+		(property "Reference" "U301"
 			(at 82.55 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18160,7 +18160,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "U1")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -18178,7 +18178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8deacfb-cc6b-444b-b484-acd5b6455141")
-		(property "Reference" "R203"
+		(property "Reference" "R303"
 			(at 146.05 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18242,7 +18242,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "R203")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -18260,7 +18260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f99bc3fb-bbac-4914-88d9-7efdee2e084e")
-		(property "Reference" "C208"
+		(property "Reference" "C302"
 			(at 134.62 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18324,7 +18324,7 @@
 		(instances
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/947e469f-e1e3-460e-9031-ccc4285a0168"
-					(reference "C208")
+					(reference "C302")
 					(unit 1)
 				)
 			)

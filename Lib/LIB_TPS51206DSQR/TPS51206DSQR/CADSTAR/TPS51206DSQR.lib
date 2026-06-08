@@ -1,0 +1,18 @@
+.TPS51206DSQR :1 ;2A Peak Sink/Source DDR Termination Regulator with VTTREF Buffered Reference for DDR2/3/3L/4
+SON40P200X200X80-11N
+*STM IC
+*NGS
+*PLB 1="VDDQSNS" 2="VLDOIN" 3="VTT" 4="PGND" 5="VTTSNS" 6="VTTREF" 7="S3" 8="GND" 9="S5" 10="VDD" 11="EP"
+*MXP 11
+*DFN TPS51206DSQR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS51206DSQR)
+~!Mouser Part Number (595-TPS51206DSQR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS51206DSQR?qs=%252BG2H6gVb6ixLbD%2FQxTGyiQ%3D%3D)
+~!Arrow Part Number (TPS51206DSQR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps51206dsqr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/tps51206.pdf)
+~!Height (0.8mm)
+~!3D_Model (TPS51206DSQR)
+TPS51206DSQR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 
