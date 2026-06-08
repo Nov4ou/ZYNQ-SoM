@@ -1967,10 +1967,550 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+VCCIO_34"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+VCCIO_34"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VCCIO_34\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+VCCIO_34_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VCCIO_34_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+VCCIO_35"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+VCCIO_35"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VCCIO_35\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+VCCIO_35_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VCCIO_35_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 149.86 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ed1333-dcd2-41e2-925f-581527cd5a8b")
+	)
+	(junction
+		(at 95.25 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ab7e9f9-8e09-4f0c-8b3a-65d1252506c5")
+	)
+	(junction
+		(at 185.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c0edca4-5514-4cd0-ac54-b6ee0c570014")
+	)
+	(junction
+		(at 59.69 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f23f2911-5c3b-44c5-b61b-8d99a5441f37")
+	)
+	(wire
+		(pts
+			(xy 95.25 45.72) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eda4550-4e8d-499a-8040-6a8775637d0f")
+	)
+	(wire
+		(pts
+			(xy 149.86 40.64) (xy 149.86 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412d6aff-07df-45b9-ae09-44c32662ff81")
+	)
+	(wire
+		(pts
+			(xy 149.86 38.1) (xy 154.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb1609c-6d75-43f5-a9ff-1f9c2b129e3d")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7753c62c-1d5f-46f5-80d2-bddc60252369")
+	)
+	(wire
+		(pts
+			(xy 185.42 38.1) (xy 180.34 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794f8d7f-7ff4-4b72-8ca0-78f5168bd448")
+	)
+	(wire
+		(pts
+			(xy 90.17 48.26) (xy 95.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8343dbf2-74d6-4472-8e55-58e1acc9151a")
+	)
+	(wire
+		(pts
+			(xy 59.69 48.26) (xy 59.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fda440-ee78-41fe-be8c-5eb75e7c275a")
+	)
+	(wire
+		(pts
+			(xy 185.42 40.64) (xy 185.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbb548a-9fa7-444f-b1ec-37e9da17162f")
+	)
+	(wire
+		(pts
+			(xy 154.94 40.64) (xy 149.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d184d4-d9cc-40b0-b82b-f76f492008aa")
+	)
+	(wire
+		(pts
+			(xy 149.86 33.02) (xy 149.86 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81deae5-5f0a-4b0d-ba41-659963ae5bcc")
+	)
+	(wire
+		(pts
+			(xy 95.25 48.26) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3026750-8ea4-420b-a4aa-e39d1674c1ad")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe1a630-8000-464f-90bc-ece4acd9ceba")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 185.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7d1042-e99d-45d9-a3b8-13ba89c475e1")
+	)
+	(wire
+		(pts
+			(xy 59.69 45.72) (xy 64.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a43dd6-ea0a-4892-addc-14d542dff943")
+	)
+	(wire
+		(pts
+			(xy 59.69 40.64) (xy 59.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bb831b-caef-4396-ace1-a23059baca4a")
+	)
+	(wire
+		(pts
+			(xy 185.42 33.02) (xy 185.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0237c6-a1e0-4782-b7aa-1624271c1d96")
+	)
+	(symbol
+		(lib_id "power:+VCCIO_35")
+		(at 149.86 33.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b6275ab-0be1-4c16-a91b-4944d1b3df74")
+		(property "Reference" "#PWR0404"
+			(at 149.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VCCIO_35"
+			(at 149.86 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VCCIO_35\""
+			(at 149.86 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b402d1c-5a6d-4542-8829-6a35d86edaa2")
+		)
+		(instances
+			(project "ZYNQ-SoM"
+				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/568fa029-0550-41b0-82fd-98d2d7b974e8"
+					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "AXK500137YG:AXK500137YG")
-		(at 110.49 39.37 0)
+		(at 154.94 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1981,7 +2521,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dda2b75-83e0-4673-94ac-2816c58d43e8")
 		(property "Reference" "J402"
-			(at 123.19 31.75 0)
+			(at 167.64 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1991,7 +2531,7 @@
 			)
 		)
 		(property "Value" "AXK500137YG"
-			(at 123.19 34.29 0)
+			(at 167.64 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2001,7 +2541,7 @@
 			)
 		)
 		(property "Footprint" "Project:AXK500137YG"
-			(at 132.08 134.29 0)
+			(at 176.53 133.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2013,7 +2553,7 @@
 			)
 		)
 		(property "Datasheet" "https://industry.panasonic.com/ac/cdn/e/control/connector/base-base/catalog/con_eng_p5k.pdf"
-			(at 132.08 234.29 0)
+			(at 176.53 233.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +2565,7 @@
 			)
 		)
 		(property "Description" "Board to Board & Mezzanine Connectors CONN SOCKET BRD/BRD 100 POS 0.5mm"
-			(at 110.49 39.37 0)
+			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2036,7 +2576,7 @@
 			)
 		)
 		(property "Height" "2.55"
-			(at 132.08 434.29 0)
+			(at 176.53 433.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2048,7 +2588,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 132.08 534.29 0)
+			(at 176.53 533.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2060,7 +2600,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AXK500137YG"
-			(at 132.08 634.29 0)
+			(at 176.53 633.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2072,7 +2612,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-AXK500137YG"
-			(at 132.08 734.29 0)
+			(at 176.53 733.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2084,7 +2624,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/AXK500137YG?qs=2rFUEsTwVNyhvaP0YC8Z%2Fg%3D%3D"
-			(at 132.08 834.29 0)
+			(at 176.53 833.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,7 +2636,7 @@
 			)
 		)
 		(property "Arrow Part Number" "AXK500137YG"
-			(at 132.08 934.29 0)
+			(at 176.53 933.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2108,7 +2648,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/axk500137yg/panasonic?utm_currency=USD&region=nac"
-			(at 132.08 1034.29 0)
+			(at 176.53 1033.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,6 +3423,238 @@
 			(project "ZYNQ-SoM"
 				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/568fa029-0550-41b0-82fd-98d2d7b974e8"
 					(reference "J401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VCCIO_34")
+		(at 95.25 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4687d22-b07f-46d1-9dd6-15f1af9b8ddb")
+		(property "Reference" "#PWR0401"
+			(at 95.25 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VCCIO_34"
+			(at 95.25 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VCCIO_34\""
+			(at 95.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "599d7543-cdf1-496d-a012-77bcf55ae22d")
+		)
+		(instances
+			(project "ZYNQ-SoM"
+				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/568fa029-0550-41b0-82fd-98d2d7b974e8"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VCCIO_35")
+		(at 185.42 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2bd3b35-c258-43eb-a681-5b036d0c1b66")
+		(property "Reference" "#PWR0403"
+			(at 185.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VCCIO_35"
+			(at 185.42 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VCCIO_35\""
+			(at 185.42 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1bea8cb-fdf9-4c36-9aab-d7239bf7d0d2")
+		)
+		(instances
+			(project "ZYNQ-SoM"
+				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/568fa029-0550-41b0-82fd-98d2d7b974e8"
+					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VCCIO_34")
+		(at 59.69 40.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f06af303-de17-4773-8f17-da916f7e7bf1")
+		(property "Reference" "#PWR0402"
+			(at 59.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VCCIO_34"
+			(at 59.69 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VCCIO_34\""
+			(at 59.69 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efff6b7e-b111-47f0-bff8-eb2864f8cb4d")
+		)
+		(instances
+			(project "ZYNQ-SoM"
+				(path "/49bbd0e9-23a3-4368-9660-7ba6c337a59d/568fa029-0550-41b0-82fd-98d2d7b974e8"
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
