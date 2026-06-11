@@ -211,9 +211,7 @@
       ],
       "track_widths": [
         0.0,
-        0.124,
-        0.127,
-        0.1425,
+        0.1191,
         0.1509,
         0.25,
         0.4,
@@ -523,7 +521,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.11,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -541,23 +539,64 @@
         "wire_width": 6
       },
       {
-        "name": "DDR_ADDR",
+        "name": "DDR_ADDR_CTRL",
         "pcb_color": "rgba(255, 0, 255, 0.502)",
+        "priority": 5,
+        "schematic_color": "rgb(255, 0, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1191,
+        "name": "DDR_CLK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DDR_DQ0",
+        "pcb_color": "rgba(0, 255, 0, 0.502)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 255, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DDR_DQ1",
+        "pcb_color": "rgba(0, 255, 255, 0.502)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 255, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1191,
+        "name": "DDR_DQS0",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 255, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1191,
+        "name": "DDR_DQS1",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 255, 255)",
         "tuning_profile": ""
       },
       {
         "name": "IO34",
         "pcb_color": "rgba(0, 0, 255, 0.502)",
-        "priority": 2,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "IO35",
         "pcb_color": "rgba(0, 255, 255, 0.502)",
-        "priority": 1,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -585,8 +624,40 @@
         "pattern": "PL_B35_IO(0|1_N|1_P|2_N|2_P|3_N|3_P|4_N|4_P|5_N|5_P|6_N|6_P|7_N|7_P|8_N|8_P|9_N|9_P|10_N|10_P|11_N|11_P|12_N|12_P|13_N|13_P|14_N|14_P|15_N|15_P|16_N|16_P|17_N|17_P|18_N|18_P|19_N|19_P|20_N|20_P|21_N|21_P|22_N|22_P|23_N|23_P|24_N|24_P|25)"
       },
       {
-        "netclass": "DDR_ADDR",
+        "netclass": "DDR_ADDR_CTRL",
         "pattern": "/DDR3/DDR_A(0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)"
+      },
+      {
+        "netclass": "DDR_DQ0",
+        "pattern": "/DDR3/DDR_D(0|1|2|3|4|5|6|7)"
+      },
+      {
+        "netclass": "DDR_DQ1",
+        "pattern": "/DDR3/DDR_D(8|9|10|11|12|13|14|15)"
+      },
+      {
+        "netclass": "DDR_DQ0",
+        "pattern": "/DDR3/DDR_DM0"
+      },
+      {
+        "netclass": "DDR_DQ1",
+        "pattern": "/DDR3/DDR_DM1"
+      },
+      {
+        "netclass": "DDR_DQS0",
+        "pattern": "/DDR3/DDR_DQS0_(N|P)"
+      },
+      {
+        "netclass": "DDR_DQS1",
+        "pattern": "/DDR3/DDR_DQS1_(N|P)"
+      },
+      {
+        "netclass": "DDR_CLK",
+        "pattern": "/DDR3/DDR_CLK_(N|P)"
+      },
+      {
+        "netclass": "DDR_ADDR_CTRL",
+        "pattern": "/DDR3/DDR_(BA0|BA1|BA2|CKE|ODT|~{CAS}|~{CS}|~{RAS}|~{WE})"
       }
     ]
   },
