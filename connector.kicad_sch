@@ -2848,6 +2848,138 @@
 		)
 		(uuid "fc0237c6-a1e0-4782-b7aa-1624271c1d96")
 	)
+	(global_label "PL_B34_IO4_N"
+		(shape bidirectional)
+		(at 90.17 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0241a6c3-83fc-40e7-bda0-1e8fe4623d5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "PL_B34_IO1_P"
+		(shape bidirectional)
+		(at 90.17 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "305fdc16-c828-4660-9e1f-a97ad5dfd3e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "PL_B34_IO1_N"
+		(shape bidirectional)
+		(at 90.17 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38abd34c-e148-489f-819c-51ee56add727")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "PL_B34_IO4_P"
+		(shape bidirectional)
+		(at 90.17 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7239e1b2-cee4-46b7-9b51-8a0a16fb4d18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "PL_B34_IO8_P"
+		(shape bidirectional)
+		(at 90.17 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5cf36f0-cb84-41ef-b3a7-f4b3afc1fd04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "PL_B34_IO8_N"
+		(shape bidirectional)
+		(at 90.17 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa6d6016-f0d3-4fd2-9025-d044c91af29f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 52.07 52.07 0)
