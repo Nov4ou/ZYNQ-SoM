@@ -541,7 +541,7 @@
       {
         "name": "DDR_ADDR_CTRL",
         "pcb_color": "rgba(255, 0, 255, 0.502)",
-        "priority": 7,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": ""
       },
@@ -550,21 +550,21 @@
         "diff_pair_width": 0.1191,
         "name": "DDR_CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": ""
       },
       {
         "name": "DDR_DQ0",
         "pcb_color": "rgba(0, 255, 0, 0.502)",
-        "priority": 6,
+        "priority": 4,
         "schematic_color": "rgb(0, 255, 0)",
         "tuning_profile": ""
       },
       {
         "name": "DDR_DQ1",
         "pcb_color": "rgba(0, 255, 255, 0.502)",
-        "priority": 5,
+        "priority": 3,
         "schematic_color": "rgb(0, 255, 255)",
         "tuning_profile": ""
       },
@@ -573,7 +573,7 @@
         "diff_pair_width": 0.1191,
         "name": "DDR_DQS0",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 4,
+        "priority": 2,
         "schematic_color": "rgb(0, 255, 0)",
         "tuning_profile": ""
       },
@@ -582,7 +582,7 @@
         "diff_pair_width": 0.1191,
         "name": "DDR_DQS1",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 3,
+        "priority": 1,
         "schematic_color": "rgb(0, 255, 255)",
         "tuning_profile": ""
       },
@@ -591,7 +591,7 @@
         "diff_pair_width": 0.1191,
         "name": "IO34",
         "pcb_color": "rgba(0, 0, 255, 0.502)",
-        "priority": 9,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
@@ -600,22 +600,8 @@
         "diff_pair_width": 0.1191,
         "name": "IO35",
         "pcb_color": "rgba(0, 255, 255, 0.502)",
-        "priority": 8,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "SD",
-        "pcb_color": "rgba(255, 153, 0, 0.502)",
-        "priority": 0,
-        "schematic_color": "rgb(255, 153, 0)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "USB_OTG",
-        "pcb_color": "rgba(255, 255, 0, 0.502)",
-        "priority": 1,
-        "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": ""
       }
     ],
@@ -676,22 +662,6 @@
       {
         "netclass": "DDR_ADDR_CTRL",
         "pattern": "/DDR3/DDR_(BA0|BA1|BA2|CKE|ODT|~{CAS}|~{CS}|~{RAS}|~{WE})"
-      },
-      {
-        "netclass": "Default",
-        "pattern": ""
-      },
-      {
-        "netclass": "USB_OTG",
-        "pattern": "OTG_(CLK|DATA0|DATA1|DATA2|DATA3|DATA4|DATA5|DATA6|DATA7|DIR|NXT|STP)"
-      },
-      {
-        "netclass": "USB_OTG",
-        "pattern": "OTG_nRST"
-      },
-      {
-        "netclass": "SD",
-        "pattern": "SD_(CLK|CMD|DATA0|DATA1|DATA2|DATA3)"
       }
     ]
   },
