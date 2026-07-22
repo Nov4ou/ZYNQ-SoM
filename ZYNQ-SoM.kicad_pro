@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.15,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.095,
+        "min_clearance": 0.1,
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
@@ -541,7 +541,7 @@
       {
         "name": "DDR_ADDR_CTRL",
         "pcb_color": "rgba(255, 0, 255, 0.502)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": ""
       },
@@ -550,21 +550,21 @@
         "diff_pair_width": 0.1191,
         "name": "DDR_CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": ""
       },
       {
         "name": "DDR_DQ0",
         "pcb_color": "rgba(0, 255, 0, 0.502)",
-        "priority": 4,
+        "priority": 8,
         "schematic_color": "rgb(0, 255, 0)",
         "tuning_profile": ""
       },
       {
         "name": "DDR_DQ1",
         "pcb_color": "rgba(0, 255, 255, 0.502)",
-        "priority": 3,
+        "priority": 7,
         "schematic_color": "rgb(0, 255, 255)",
         "tuning_profile": ""
       },
@@ -573,7 +573,7 @@
         "diff_pair_width": 0.1191,
         "name": "DDR_DQS0",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgb(0, 255, 0)",
         "tuning_profile": ""
       },
@@ -582,7 +582,7 @@
         "diff_pair_width": 0.1191,
         "name": "DDR_DQS1",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgb(0, 255, 255)",
         "tuning_profile": ""
       },
@@ -590,8 +590,8 @@
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.1191,
         "name": "IO34",
-        "pcb_color": "rgba(0, 0, 255, 0.502)",
-        "priority": 7,
+        "pcb_color": "rgba(0, 255, 255, 0.502)",
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
@@ -599,9 +599,37 @@
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.1191,
         "name": "IO35",
-        "pcb_color": "rgba(0, 255, 255, 0.502)",
-        "priority": 6,
+        "pcb_color": "rgba(0, 0, 255, 0.502)",
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "JTAG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "OTG",
+        "pcb_color": "rgba(255, 0, 255, 0.502)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 0, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SD",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": ""
       }
     ],
@@ -613,8 +641,9 @@
       "+1V5": "rgb(0, 255, 255)",
       "+1V8": "rgb(255, 0, 255)",
       "+3V3": "rgb(255, 153, 0)",
+      "+5V": "rgb(255, 0, 0)",
       "+VCCIO_34": "rgb(0, 0, 255)",
-      "+VCCIO_35": "rgb(0, 255, 255)",
+      "+VCCIO_35": "rgb(0, 0, 132)",
       "GND": "rgb(72, 72, 72)"
     },
     "netclass_assignments": null,
@@ -662,6 +691,30 @@
       {
         "netclass": "DDR_ADDR_CTRL",
         "pattern": "/DDR3/DDR_(BA0|BA1|BA2|CKE|ODT|~{CAS}|~{CS}|~{RAS}|~{WE})"
+      },
+      {
+        "netclass": "SD",
+        "pattern": "SD_(CLK|CMD|DATA0|DATA1|DATA2|DATA3)"
+      },
+      {
+        "netclass": "OTG",
+        "pattern": "OTG_(CLK|DATA0|DATA1|DATA2|DATA3|DATA4|DATA5|DATA6|DATA7|DIR|nRST|NXT|STP)"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "T(CK|DI|DO|MS)"
+      },
+      {
+        "netclass": "MIO",
+        "pattern": "PS_MIO(16|17|18|19|20|21|22|23|24|25|26|27)"
+      },
+      {
+        "netclass": "MIO",
+        "pattern": "PS_MIO4(7|8|9)"
+      },
+      {
+        "netclass": "MIO",
+        "pattern": "PS_MIO5(2|3)"
       }
     ]
   },
@@ -961,7 +1014,7 @@
         "uuid": "49bbd0e9-23a3-4368-9660-7ba6c337a59d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R201,R205,R303,R307,R704-706,C311,C704,#PWR203,#PWR208-209,#PWR220,#PWR308,#PWR311,#PWR321,#PWR326,#PWR441-470,#PWR531,#PWR705-708,D201-202",
     "variants": []
   },
   "sheets": [
