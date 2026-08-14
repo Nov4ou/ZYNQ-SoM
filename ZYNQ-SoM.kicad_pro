@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.1,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -219,27 +219,27 @@
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
+          "corner_radius_percentage": 45,
+          "corner_style": 0,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 1.0
         },
         "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
+          "corner_radius_percentage": 45,
+          "corner_style": 0,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
+          "corner_radius_percentage": 45,
+          "corner_style": 0,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
-          "single_sided": false,
+          "single_sided": true,
           "spacing": 0.6
         }
       },
@@ -599,7 +599,7 @@
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.1191,
         "name": "IO35",
-        "pcb_color": "rgba(0, 0, 255, 0.502)",
+        "pcb_color": "rgba(0, 255, 0, 0.502)",
         "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
@@ -724,6 +724,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1014,7 +1015,7 @@
         "uuid": "49bbd0e9-23a3-4368-9660-7ba6c337a59d"
       }
     ],
-    "used_designators": "R201,R205,R303,R307,R704-706,C311,C704,#PWR203,#PWR208-209,#PWR220,#PWR308,#PWR311,#PWR321,#PWR326,#PWR441-470,#PWR531,#PWR705-708,D201-202",
+    "used_designators": "#FLG201,#FLG301,#FLG401-403,#FLG501-506,R201,R205,R303,R307,R704-706,C311,C704,D201-202,#PWR203,#PWR208-209,#PWR220,#PWR308,#PWR311,#PWR321,#PWR326,#PWR441-470,#PWR531,#PWR705-708,J403-404",
     "variants": []
   },
   "sheets": [

@@ -8241,12 +8241,20 @@
 		(uuid "93a58483-0a87-417a-b6e8-12908f56f63f")
 	)
 	(no_connect
+		(at 74.93 81.28)
+		(uuid "1d9257d0-79c7-487d-9e7f-f9eafa50f0c2")
+	)
+	(no_connect
 		(at 74.93 83.82)
 		(uuid "48af8aeb-a853-4140-b3bf-d68abce19a0c")
 	)
 	(no_connect
 		(at 74.93 86.36)
 		(uuid "619d515f-0062-45dc-b19a-29af05db282d")
+	)
+	(no_connect
+		(at 74.93 91.44)
+		(uuid "69344359-e2e0-4e14-bfb9-27dcc4841351")
 	)
 	(no_connect
 		(at 74.93 88.9)
@@ -8986,28 +8994,6 @@
 			)
 		)
 	)
-	(global_label "PS_MIO9"
-		(shape bidirectional)
-		(at 74.93 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d25d02c-22b2-4eba-bffc-fbc4042a2b9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "SD_CMD"
 		(shape input)
 		(at 226.06 90.17 180)
@@ -9449,28 +9435,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "PS_MIO13"
-		(shape bidirectional)
-		(at 74.93 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b3b2a70c-f681-49d4-8517-97fe0cc4b100")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 	)
