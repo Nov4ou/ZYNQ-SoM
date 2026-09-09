@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=TPS62130ARGTR
-PartCategory=Integrated Circuit
-PackageCategory=Quad Flat No-Lead
-PinCount=17
-Version=1.1
-Released=2020-04-08 05:56:30
-Downloaded=2026-06-08 06:23:05
-3D=Y

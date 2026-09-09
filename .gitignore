@@ -1,18 +1,29 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# macOS / editors
+.DS_Store
+**/.DS_Store
+*~
+~*
+*.swp
 
-# Temporary files
+# Python
+__pycache__/
+*.py[cod]
+
+# Local work and imported references
+/tmp/
+
+# KiCad local state, autosaves, caches, and backups
+.history/
+**/.history/
+*-backups/
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*-backups
 *-cache*
 *-bak
 *-bak*
-*~
-~*
 _autosave-*
 \#auto_saved_files\#
 *.tmp
@@ -20,24 +31,10 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 ~*.lck
-\#auto_saved_files#
+*.kicad_prl
 
-# Netlist files (exported from Eeschema)
+# Exported intermediate netlists and autorouter files
 *.net
-
-# Autorouter files (exported from Pcbnew)
+*.xml
 *.dsn
 *.ses
-
-# Exported BOM files
-*.xml
-*.csv
-
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
-
-# Local git-based history (KiCad 9.0+)
-.history
-
-# Local project settings
-*.kicad_prl

@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.5"
+    },
+    "CreationDate": "2026-09-09T16:14:35+08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "ZYNQ-SoM",
+      "GUID": "5a594e51-2d53-46f4-9d2e-6b696361645f",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 50.05,
+      "Y": 40.05
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.5584,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.1191,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.1191,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "ZYNQ-SoM-F_Cu [TOP].gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-In1_Cu [L2_GND].gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-In2_Cu [L3_SIG].gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-In3_Cu [L4_SIG].gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-In4_Cu [L5_PWR].gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-B_Cu [BOTTOM].gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ZYNQ-SoM-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "ZYNQ-SoM-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "ZYNQ-SoM-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu [TOP]"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0994,
+      "Material": "FR4",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
+      "Name": "F.Cu [TOP]/In1.Cu [L2_GND]",
+      "Notes": "Type: dielectric layer 1 (from F.Cu [TOP] to In1.Cu [L2_GND])"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In1.Cu [L2_GND]"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.55,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu [L2_GND]/In2.Cu [L3_SIG]",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu [L2_GND] to In2.Cu [L3_SIG])"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In2.Cu [L3_SIG]"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1088,
+      "Material": "FR4",
+      "DielectricConstant": "4.3",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu [L3_SIG]/In3.Cu [L4_SIG]",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu [L3_SIG] to In3.Cu [L4_SIG])"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In3.Cu [L4_SIG]"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.55,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In3.Cu [L4_SIG]/In4.Cu [L5_PWR]",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu [L4_SIG] to In4.Cu [L5_PWR])"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In4.Cu [L5_PWR]"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0994,
+      "Material": "FR4",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
+      "Name": "In4.Cu [L5_PWR]/B.Cu [BOTTOM]",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu [L5_PWR] to B.Cu [BOTTOM])"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu [BOTTOM]"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

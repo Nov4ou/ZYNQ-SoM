@@ -1,0 +1,23 @@
+* text=auto eol=lf
+
+*.kicad_pcb text diff
+*.kicad_sch text diff
+*.kicad_sym text diff
+*.kicad_mod text diff
+*.kicad_pro text diff
+*.kicad_dru text diff
+*.gbr text
+*.drl text
+*.gbrjob text
+*.csv text
+
+*.pdf binary
+*.zip binary
+*.step binary
+*.stp binary
+*.wrl binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.otf binary
+*.eps binary

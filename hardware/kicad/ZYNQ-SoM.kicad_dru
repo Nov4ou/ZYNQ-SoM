@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "High speed track to GND zone clearance"
+  (condition "(((A.NetClass == 'IO34') || (A.NetClass == 'IO35') || (A.NetClass == 'OTG') || (A.NetClass == 'DDR_CLK') || (A.NetClass == 'DDR_DQS1') || (A.NetClass == 'DDR_DQS0') || (A.NetClass == 'DDR_DQ1') || (A.NetClass == 'DDR_DQ0') || (A.NetClass == 'DDR_ADDR_CTRL')) && (A.Type == 'Track') && (B.NetName == 'GND') && (B.Type == 'Zone')) || (((B.NetClass == 'IO34') || (B.NetClass == 'IO35') || (B.NetClass == 'OTG') || (B.NetClass == 'DDR_CLK') || (B.NetClass == 'DDR_DQS1') || (B.NetClass == 'DDR_DQS0') || (B.NetClass == 'DDR_DQ1') || (B.NetClass == 'DDR_DQ0') || (B.NetClass == 'DDR_ADDR_CTRL')) && (B.Type == 'Track') && (A.NetName == 'GND') && (A.Type == 'Zone'))")
+  (constraint clearance (min 0.5mm))
+)

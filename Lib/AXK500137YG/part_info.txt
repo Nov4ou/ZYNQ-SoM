@@ -1,9 +1,0 @@
-Manufacturer=Panasonic
-PartNumber=AXK500137YG
-PartCategory=Connector
-PackageCategory=Other
-PinCount=100
-Version=3.3
-Released=2019-07-09 12:31:37
-Downloaded=2026-06-07 14:27:51
-3D=Y
