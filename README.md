@@ -2,7 +2,11 @@
 
 An open-source Zynq-7000 system-on-module, designed in KiCad. The Rev B boards have been assembled and tested.
 
+## Photos
+
 ![Assembled ZYNQ-SoM top side](docs/images/assembled-top.jpeg)
+
+![Assembled ZYNQ-SoM bottom side](docs/images/assembled-bottom.jpeg)
 
 ## What is on the board
 
